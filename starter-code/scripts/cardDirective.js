@@ -1,7 +1,7 @@
 angular.module('CardsAgainstAssembly')
-  .directive('wdiCard', cardDirective);
+  .directive('wdiCard', wdiCard);
 
-function cardDirective(){
+function wdiCard(){
   var directive = {
     restrict: 'E',
     replace: true,
