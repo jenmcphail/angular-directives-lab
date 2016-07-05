@@ -9,8 +9,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
         <script src="scripts/app.js"></script>
+        <script src="scripts/cardDirective.js"></script>    
         <script src="scripts/controllers/cardsController.js"></script>
-    </head>
+</head>
+
     <body>
       <div class="container">
         <header class="navbar">
@@ -24,8 +26,7 @@
 
             <div class="col-sm-6 col-md-6 col-lg-4" ng-repeat="card in cardsCtrl.questionsList" >
               <div class="card">
-                <h4 class="card-title">{{card.question}}</h4>
-                <h6>Cards Against Assembly</h6>
+                <wdi-card question="{{card.question}}"></wdi-card>
               </div>
             </div>
 
@@ -37,4 +38,5 @@
       </footer>
       </div>
     </body>
+
 </html>

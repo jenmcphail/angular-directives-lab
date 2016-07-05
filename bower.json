@@ -1,0 +1,20 @@
+{
+  "name": "angular-directives-lab",
+  "homepage": "https://github.com/jenmcphail/angular-directives-lab",
+  "authors": [
+    "jenmcphail <mcphail.jen@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}
